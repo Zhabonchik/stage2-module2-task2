@@ -5,7 +5,7 @@
 <html>
 <body>
 <%--<c:out value="${pageContext.request.contextPath}"/>--%>
-<jsp:forward page="/login"/>
+<jsp:forward page="${pageContext.request.contextPath}/login"/>
 <%--adsddsdsd--%>
 </body>
 </html>
